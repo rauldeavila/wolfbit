@@ -13,6 +13,12 @@ export function Header() {
           className="rounded-xl"
         />
       </div>
+      <nav className="flex gap-4">
+        <a href="#apps" className="text-[#E3E3E3] hover:text-[#B4B4B4] transition-colors duration-300">APPs</a>
+        <a href="#games" className="text-[#E3E3E3] hover:text-[#B4B4B4] transition-colors duration-300">Games</a>
+        <a href="#contact" className="text-[#E3E3E3] hover:text-[#B4B4B4] transition-colors duration-300">Contact</a>
+        <a href="#blog" className="text-[#E3E3E3] hover:text-[#B4B4B4] transition-colors duration-300">Blog</a>
+      </nav>
     </header>
   );
 }
